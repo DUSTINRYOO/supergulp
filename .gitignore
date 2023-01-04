@@ -1,1 +1,5 @@
 .DS_store
+.env
+.next
+build/
+/node_modules

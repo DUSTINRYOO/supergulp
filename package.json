@@ -1,0 +1,43 @@
+{
+  "name": "supergulp",
+  "version": "1.0.0",
+  "description": "Gulp",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DUSTINRYOO/supergulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DUSTINRYOO/supergulp/issues"
+  },
+  "homepage": "https://github.com/DUSTINRYOO/supergulp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "del": "^4.1.1",
+    "gift": "^0.10.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-image": "^4.4.1",
+    "node-sass": "^8.0.0",
+    "uglifyify": "^5.0.2"
+  }
+}
